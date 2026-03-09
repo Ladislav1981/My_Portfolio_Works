@@ -1,0 +1,139 @@
+body{background-color: #d6e6f2;}
+body:hover{background-color:#f5eee6;}
+/*фЛЕКСБОКС МЕНЮ-Родитель+дети*/
+.shapka{display:flex;
+justify-content: flex-end;
+background-color: #2d4059;
+}
+.menu{font-size: 20px;
+text-decoration: none;
+font-family: "roboto",sans-serif;
+padding: 15px;
+color:white;
+}
+.mar{margin-right: auto;}
+/*----------------------------*/
+/*photo resize*/
+.photo{width: 100%;
+height: auto;
+margin-top: 20px;  
+}
+/*----------------------------*/
+/*цытата+фото*/  
+.roditel{display: flex;
+justify-content:space-between;
+margin-top:15px;
+}
+.par{font-family:"roboto",sans-serif;
+align-self: center;
+text-transform: uppercase;
+margin-right: 35px;
+}
+/*----------------------------*/
+/*экспертиза+меню2*/  
+.roditel1{display:flex;
+justify-content: center;
+}
+.eks{
+color:#112d4e;
+font-size: 30px;
+}
+
+.eks:hover{color:#07689f;}
+
+.menu2{display:flex;
+      justify-content:space-around;
+
+}
+
+.dec{text-decoration: none;
+   font-family:"roboto",sans-serif;
+   color:black;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+
+.dec:hover{background-color:#384259;
+           color:white;
+}
+/*----------------------------*/
+
+/*тарифы+ценник*/
+.reb1{display:flex;
+      flex-direction:column;
+      align-items: center;
+}
+.tar{
+     color:#384259;
+     font-size: 30px;
+      margin-top:150px;}
+
+.tar:hover{color:#07689f;}
+
+
+
+     .img3{width: 100%;
+           height: auto;
+           margin-top: 15px;
+      }
+
+     .spi{display: flex;
+         align-items:flex-start;
+         width: 100%;
+         justify-content:space-around;
+      }
+       
+
+.mone{list-style: none;
+       padding: 20px;
+       font-size: 25px;
+       font-family:"roboto",sans-serif;
+       margin-top: 30px;
+}
+
+
+.mone:hover{background-color:#112d4e;
+            color:white;}
+
+/*----------------------------*/
+
+/*анкета*/
+.rod3{display:flex;
+      flex-direction: column;
+      
+}
+
+.det3{color:#384259;
+      text-transform: uppercase;
+      align-self: center;
+      margin-top: 60px;
+}
+
+.space{width: 100%;
+      
+}
+
+input:focus { 
+      border:none;
+     outline:1px solid #3f72af;
+      
+   }
+.buk{font-family:"roboto",sans-serif;
+color: black;
+}
+
+
+
+.knopka{margin-left: 5px;
+         margin-top: 10px; 
+         padding: 10px; 
+         background-color: #3f72af; 
+         color: white;
+         border:ridge rgb(36, 34, 34) 1px;
+         text-transform: uppercase;
+         
+}
+.knopka:hover{background-color:#384259;}
+
+/*----------------------------*/
